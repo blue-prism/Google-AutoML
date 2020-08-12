@@ -1,6 +1,6 @@
 # Google AutoML
 A BluePrism skill providing integration with Google AutoML API
-This asset interacts with the web service exposed by Google AutoML Natural Language at <https://automl.googleapis.com/>
+This asset interacts with the web service exposed by Google AutoML Natural Language at <https://automl.googleapis.com/>. Further actions may be added in the future.
 
 ## Usage
 The asset provides the following methods. 
