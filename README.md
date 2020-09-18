@@ -23,5 +23,5 @@ Further details about the API can be found at <https://cloud.google.com/automl/d
 
 If issues are encountered, please submit a new issue on the Issues tab for this repository:
 
-https://github.com/blue-prism/Google-AutoML/issues
+https://github.com/blue-prism/Google-AutoML-NaturalLanguage/issues
 
