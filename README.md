@@ -16,7 +16,7 @@ Further details about the API can be found at <https://cloud.google.com/automl/d
 * Download or clone this repository. Extract the *.bprelease file* and import it into your Blue Prism environment
 * Create an account at <https://cloud.google.com/>
 * Follow steps as outlined in <https://cloud.google.com/automl> to create your model
-* Enter the API Key into the "BluePrism Google AutoML" in credential manager
+* Enter the API Key into the "BluePrism Google - AutoML Natural Language" in credential manager
 * Use the Predict action to make model inference
 
 ## Help
