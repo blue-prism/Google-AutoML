@@ -8,6 +8,7 @@ You will first need a create a machine learning model which you can use to make 
 * **Predict**
 
 Refere <https://cloud.google.com/automl/docs> on how to create custom models
+
 Further details about the API can be found at <https://cloud.google.com/automl/docs/reference/rest/v1beta1/projects.locations.models/predict>
 
 ## Configuration
