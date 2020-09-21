@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <bpr:release xmlns:bpr="http://www.blueprism.co.uk/product/release">
     <bpr:name>BluePrism Google - AutoML Natural Language</bpr:name>
-    <bpr:release-notes>BluePrism Google - AutoML Natural Language</bpr:release-notes>
-    <bpr:created>2020-09-18 07:14:38Z</bpr:created>
-    <bpr:package-id>66</bpr:package-id>
+    <bpr:release-notes />
+    <bpr:created>2020-09-21 19:00:18Z</bpr:created>
+    <bpr:package-id>215</bpr:package-id>
     <bpr:package-name>BluePrism Google AutoML</bpr:package-name>
     <bpr:user-created-by>admin</bpr:user-created-by>
     <bpr:contents count="2">
-        <credential id="462d308f-ca85-4e33-b4ba-352e18fad8e2" name="BluePrism Google - AutoML Natural Language" xmlns="http://www.blueprism.co.uk/product/credential">
+        <credential id="b1ea2d60-4d92-41e8-ae2f-31903f315b76" name="BluePrism Google - AutoML Natural Language" xmlns="http://www.blueprism.co.uk/product/credential">
             <description>JWT Bearer Token for Google - AutoML Natural Language service</description>
             <credentialType>OAuth2JwtBearerToken</credentialType>
             <members />
@@ -15,7 +15,7 @@
         <webapiservice id="46b9908c-e0e8-430d-a52f-15a631c7d58c" name="BluePrism Google - AutoML Natural Language" enabled="true" xmlns="http://www.blueprism.co.uk/product/webapiservice">
             <configuration baseurl="https://automl.googleapis.com/" xmlns="">
                 <actions>
-                    <action id="6441" name="Predict" enabled="true" enableRequestOutputParameter="false" disableSendingOfRequest="false">
+                    <action id="3023" name="Predict" enabled="true" enableRequestOutputParameter="false" disableSendingOfRequest="false">
                         <description><![CDATA[Predict using the trained model]]></description>
                         <request httpmethod="POST" urlpath="/v1/projects/[Project]/locations/[Location]/models/[Model]:predict">
                             <headers>
@@ -64,7 +64,7 @@
                     </authentication>
                 </commonauthentications>
                 <commoncode>
-                    <codeproperties code="" language="csharp">
+                    <codeproperties code="&#xD;&#xA;/*&#xD;&#xA;'The MIT License'&#xD;&#xA;&#xD;&#xA;© 2020 Blue Prism Limited&#xD;&#xA;&#xD;&#xA;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:&#xD;&#xA;&#xD;&#xA;The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.&#xD;&#xA;&#xD;&#xA;THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE&#xD;&#xA;*/" language="csharp">
                         <namespaces>
                             <namespace>System</namespace>
                             <namespace>System.Drawing</namespace>
